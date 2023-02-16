@@ -24,5 +24,5 @@ const car2: Car = {
   type: "Sedan",
 };
 
-// car.go = 1 -> true
+// car.go = 1;
 // car["go"] = true -> true
