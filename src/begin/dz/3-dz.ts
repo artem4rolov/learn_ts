@@ -6,7 +6,7 @@ interface Developer {
   level: Level;
 }
 
-const dev1: Developer = {
+export const dev1: Developer = {
   login: "artem4rolov",
   skills: ["js", "ts", "react", "mongoDB", "rest"],
   level: "junior",

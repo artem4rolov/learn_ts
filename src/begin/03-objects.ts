@@ -9,7 +9,7 @@ interface Car {
   [key: string]: unknown;
 }
 
-const car: Car = {
+export const car: Car = {
   wheels: 4,
   brand: "BMW",
   type: "Sedan",

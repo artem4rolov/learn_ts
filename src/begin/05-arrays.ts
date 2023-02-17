@@ -5,7 +5,7 @@ const strs: string[] = [];
 const strs2: Array<string> = [];
 strs.push("strs");
 
-interface Car {
+export interface Car {
   wheels: number;
   brand: string;
 }

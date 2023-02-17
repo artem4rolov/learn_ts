@@ -38,7 +38,7 @@ const admin1: Admin = {
 //   role: string;
 // }
 
-function login(data: { login: string; password: string }): void {
+export function login(data: { login: string; password: string }): void {
   if (data.login.length > 0 && data.password.length > 0) {
     console.log("Hello, ", login);
   }
