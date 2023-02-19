@@ -11,7 +11,7 @@ export interface Car {
 }
 
 const cars: Car[] = [];
-cars.push({ brand: "Audi", wheels: 3, type: "" });
+cars.push({ brand: "Audi", wheels: 3 });
 
 const arrOfArr: string[][] = [];
 arrOfArr.push(["", ""]);

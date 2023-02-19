@@ -12,7 +12,7 @@ function printName(name?: string) {
   const fullName: string = name!;
 }
 
-interface Person {
+export interface Person {
   name: string;
   age: number;
 }

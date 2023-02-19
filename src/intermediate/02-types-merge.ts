@@ -12,7 +12,7 @@ type Union5 = { a: string; b: string; c: number } & {
   z: null;
 };
 
-const example: Union5 = {};
+// const example: Union5 = {};
 
 export type User = {
   readonly email: string;
@@ -32,7 +32,7 @@ type Employee = {
 } & User &
   Person;
 
-const user1: Employee = {};
+// const user1: Employee = {};
 
 type Developer = {
   skills: string[];

@@ -1,5 +1,7 @@
 "use strict";
-const car = {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.car = void 0;
+exports.car = {
     wheels: 4,
     brand: "BMW",
     type: "Sedan",

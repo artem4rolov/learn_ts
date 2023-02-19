@@ -1,6 +1,8 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.x = void 0;
 // numbers
-let x = 10.5;
+exports.x = 10.5;
 // let y = 1234n;
 let z = NaN;
 // string

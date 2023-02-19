@@ -1,12 +1,14 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.obj1 = void 0;
 function printPoint(point) {
     console.log(`Coordinate this point is x: ${point.x} and y: ${point.y}`);
 }
-const obj1 = {
+exports.obj1 = {
     x: "1",
     y: "2",
 };
-printPoint(obj1);
+printPoint(exports.obj1);
 // для вызова функции printPoint необходимым минимум является наличие двух аргументов x и y с типами string, все остальное - неважно
 const obj2 = {
     x: "1",
