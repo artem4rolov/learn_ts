@@ -15,3 +15,7 @@ type answer_7 = Date extends { new (...args: any[]): any } ? true : false;
 type answer_8 = typeof Date extends { new (...args: any[]): any }
   ? true
   : false;
+
+const obj123 = [1, "ds"];
+
+type answer_9 = number extends 90 ? true : false;
