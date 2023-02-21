@@ -1,5 +1,6 @@
 "use strict";
 // Два варианта объектов с помощью alias и interface
+Object.defineProperty(exports, "__esModule", { value: true });
 const prod1 = {
     brand: "Skoda",
     isNew: true,

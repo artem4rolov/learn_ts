@@ -39,7 +39,7 @@ type Product = {
   title: string;
 };
 
-type Vehicle = {
+export type Vehicle = {
   wheels: number;
   year: Date;
   brand: string;
